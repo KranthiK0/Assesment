@@ -1,0 +1,260 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:Error processing query: 400 Client Error: Bad Request for url: https://api.mistral.ai/v1/chat/completions
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2024 11:09:22] "POST /query HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:Error processing query: 400 Client Error: Bad Request for url: https://api.mistral.ai/v1/chat/completions
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2024 11:16:43] "POST /query HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2024 11:26:05] "POST /query HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2024 11:27:26] "POST /query HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2024 11:28:32] "POST /query HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:Error processing query: name 're' is not defined
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2024 11:30:31] "POST /query HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2024 11:33:06] "POST /query HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2024 11:33:50] "POST /query HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:Error finding pod for deployment my-deployment?: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'f85f18e2-24ae-441a-8363-69b9f3b0e6a9', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '9ed4918d-9bbc-4569-b4ac-4981b1c5f3cd', 'X-Kubernetes-Pf-Prioritylevel-Uid': '938e5790-7dc5-4933-81b7-db02e63ae725', 'Date': 'Wed, 30 Oct 2024 15:35:27 GMT', 'Content-Length': '464'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"unable to parse requirement: values[0][app]: Invalid value: \"my-deployment?\": a valid label must be an empty string or consist of alphanumeric characters, '-', '_' or '.', and must start and end with an alphanumeric character (e.g. 'MyValue',  or 'my_value',  or '12345', regex used for validation is '(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])?')","reason":"BadRequest","code":400}
+
+
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2024 11:35:27] "POST /query HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:API exception when searching for pod of deployment my-deployment?: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'af1cf8b1-c897-4ad6-b671-f01dbf4fa88a', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '9ed4918d-9bbc-4569-b4ac-4981b1c5f3cd', 'X-Kubernetes-Pf-Prioritylevel-Uid': '938e5790-7dc5-4933-81b7-db02e63ae725', 'Date': 'Wed, 30 Oct 2024 15:38:36 GMT', 'Content-Length': '464'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"unable to parse requirement: values[0][app]: Invalid value: \"my-deployment?\": a valid label must be an empty string or consist of alphanumeric characters, '-', '_' or '.', and must start and end with an alphanumeric character (e.g. 'MyValue',  or 'my_value',  or '12345', regex used for validation is '(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])?')","reason":"BadRequest","code":400}
+
+
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2024 11:38:36] "POST /query HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Searching for pods with label 'app=my-deployment?' in namespace 'default'
+ERROR:root:API exception when searching for pod of deployment my-deployment?: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '6794dd9f-996d-4d55-82e7-4b1886ef3831', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '9ed4918d-9bbc-4569-b4ac-4981b1c5f3cd', 'X-Kubernetes-Pf-Prioritylevel-Uid': '938e5790-7dc5-4933-81b7-db02e63ae725', 'Date': 'Wed, 30 Oct 2024 15:44:09 GMT', 'Content-Length': '464'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"unable to parse requirement: values[0][app]: Invalid value: \"my-deployment?\": a valid label must be an empty string or consist of alphanumeric characters, '-', '_' or '.', and must start and end with an alphanumeric character (e.g. 'MyValue',  or 'my_value',  or '12345', regex used for validation is '(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])?')","reason":"BadRequest","code":400}
+
+
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2024 11:44:09] "POST /query HTTP/1.1" 200 -
+2024-10-30 11:52:31,468 INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+2024-10-30 11:52:31,468 INFO - [33mPress CTRL+C to quit[0m
+2024-10-30 11:52:47,696 INFO - Received query: How many pods are in the default namespace?
+2024-10-30 11:52:47,728 INFO - Generated answer: 5
+2024-10-30 11:52:47,729 INFO - 127.0.0.1 - - [30/Oct/2024 11:52:47] "POST /query HTTP/1.1" 200 -
+2024-10-30 11:53:01,626 INFO - Received query: Which pod is spawned by my-deployment?
+2024-10-30 11:53:01,644 ERROR - API exception when searching for pod of deployment 'my-deployment?': (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '9445ed7c-f88d-4033-8bda-ca06277655a3', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '9ed4918d-9bbc-4569-b4ac-4981b1c5f3cd', 'X-Kubernetes-Pf-Prioritylevel-Uid': '938e5790-7dc5-4933-81b7-db02e63ae725', 'Date': 'Wed, 30 Oct 2024 15:53:01 GMT', 'Content-Length': '464'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"unable to parse requirement: values[0][app]: Invalid value: \"my-deployment?\": a valid label must be an empty string or consist of alphanumeric characters, '-', '_' or '.', and must start and end with an alphanumeric character (e.g. 'MyValue',  or 'my_value',  or '12345', regex used for validation is '(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])?')","reason":"BadRequest","code":400}
+
+
+2024-10-30 11:53:01,644 INFO - Generated answer: Error retrieving deployment pod.
+2024-10-30 11:53:01,645 INFO - 127.0.0.1 - - [30/Oct/2024 11:53:01] "POST /query HTTP/1.1" 200 -
+2024-10-30 11:55:28,461 INFO - Received query: Is the API server accessible?
+2024-10-30 11:55:28,462 INFO - Generated answer: I'm sorry, I didn't understand that query.
+2024-10-30 11:55:28,467 INFO - 127.0.0.1 - - [30/Oct/2024 11:55:28] "POST /query HTTP/1.1" 200 -
+2024-10-30 11:56:15,177 INFO - Received query: What is the status of the pod named example-pod?
+2024-10-30 11:56:15,178 INFO - Generated answer: I'm sorry, I didn't understand that query.
+2024-10-30 11:56:15,182 INFO - 127.0.0.1 - - [30/Oct/2024 11:56:15] "POST /query HTTP/1.1" 200 -
+2024-10-30 11:56:50,366 INFO - Received query: List all pods in the default namespace.
+2024-10-30 11:56:50,367 INFO - Generated answer: I'm sorry, I didn't understand that query.
+2024-10-30 11:56:50,372 INFO - 127.0.0.1 - - [30/Oct/2024 11:56:50] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:02:02,835 INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+2024-10-30 12:02:02,835 INFO - [33mPress CTRL+C to quit[0m
+2024-10-30 12:02:31,358 INFO - Received query: Is the API server accessible?
+2024-10-30 12:02:34,870 INFO - Generated answer: I'm sorry, I couldn't determine the action for this query.
+2024-10-30 12:02:34,874 INFO - 127.0.0.1 - - [30/Oct/2024 12:02:34] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:02:58,711 INFO - Received query: What is the status of the pod named example-pod?
+2024-10-30 12:03:02,123 INFO - Generated answer: I'm sorry, I couldn't determine the action for this query.
+2024-10-30 12:03:02,125 INFO - 127.0.0.1 - - [30/Oct/2024 12:03:02] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:03:17,574 INFO - Received query: List all pods in the default namespace.
+2024-10-30 12:03:20,331 INFO - Generated answer: I'm sorry, I couldn't determine the action for this query.
+2024-10-30 12:03:20,333 INFO - 127.0.0.1 - - [30/Oct/2024 12:03:20] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:05:35,169 INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+2024-10-30 12:05:35,169 INFO - [33mPress CTRL+C to quit[0m
+2024-10-30 12:05:40,629 INFO - Received query: List all pods in the default namespace.
+2024-10-30 12:05:42,095 INFO - Generated answer: hello-minikube-7d89cbdb88-bqlvg, my-deployment-577d9fbfb9-kzptt, my-deployment-577d9fbfb9-nws9t, my-deployment-577d9fbfb9-q2h72, nginx-676b6c5bbc-nfxw2
+2024-10-30 12:05:42,096 INFO - 127.0.0.1 - - [30/Oct/2024 12:05:42] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:05:57,921 INFO - Received query: What is the status of the pod named example-pod?
+2024-10-30 12:05:59,382 ERROR - Error processing query: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'd27a858a-66c1-4c93-b6c2-ede71a9aaeb3', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '9ed4918d-9bbc-4569-b4ac-4981b1c5f3cd', 'X-Kubernetes-Pf-Prioritylevel-Uid': '938e5790-7dc5-4933-81b7-db02e63ae725', 'Date': 'Wed, 30 Oct 2024 16:05:59 GMT', 'Content-Length': '192'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"pods \"example-pod?\" not found","reason":"NotFound","details":{"name":"example-pod?","kind":"pods"},"code":404}
+
+
+2024-10-30 12:05:59,383 INFO - Generated answer: An error occurred while processing your query.
+2024-10-30 12:05:59,384 INFO - 127.0.0.1 - - [30/Oct/2024 12:05:59] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:06:34,769 INFO - Received query: How many pods are in the default namespace?
+2024-10-30 12:06:36,254 INFO - Generated answer: There are 5 pods in the default namespace.
+2024-10-30 12:06:36,255 INFO - 127.0.0.1 - - [30/Oct/2024 12:06:36] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:07:13,697 INFO - Received query: Is the API server accessible?
+2024-10-30 12:07:15,030 INFO - Generated answer: I'm sorry, I couldn't determine the action for this query.
+2024-10-30 12:07:15,033 INFO - 127.0.0.1 - - [30/Oct/2024 12:07:15] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:09:11,733 INFO - Received query: What is the status of the pod named 'hello-minikube-7d89cbdb88-bqlvg'?
+2024-10-30 12:09:13,027 ERROR - Error processing query: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'cf1ff158-2982-4313-be22-d791f8510907', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '9ed4918d-9bbc-4569-b4ac-4981b1c5f3cd', 'X-Kubernetes-Pf-Prioritylevel-Uid': '938e5790-7dc5-4933-81b7-db02e63ae725', 'Date': 'Wed, 30 Oct 2024 16:09:13 GMT', 'Content-Length': '232'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"pods \"hello-minikube-7d89cbdb88-bqlvg?\" not found","reason":"NotFound","details":{"name":"hello-minikube-7d89cbdb88-bqlvg?","kind":"pods"},"code":404}
+
+
+2024-10-30 12:09:13,028 INFO - Generated answer: An error occurred while processing your query.
+2024-10-30 12:09:13,029 INFO - 127.0.0.1 - - [30/Oct/2024 12:09:13] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:11:07,209 INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+2024-10-30 12:11:07,209 INFO - [33mPress CTRL+C to quit[0m
+2024-10-30 12:11:15,310 INFO - Received query: What is the status of the pod named 'hello-minikube-7d89cbdb88-bqlvg'?
+2024-10-30 12:11:16,813 ERROR - Pod 'hello-minikube-7d89cbdb88-bqlvg?' not found in namespace 'default'.
+2024-10-30 12:11:16,813 INFO - Generated answer: The status of the pod 'hello-minikube-7d89cbdb88-bqlvg?' is 'Pod not found.'.
+2024-10-30 12:11:16,814 INFO - 127.0.0.1 - - [30/Oct/2024 12:11:16] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:11:30,794 INFO - Received query: Is the API server accessible?
+2024-10-30 12:11:32,032 INFO - Generated answer: Yes
+2024-10-30 12:11:32,034 INFO - 127.0.0.1 - - [30/Oct/2024 12:11:32] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:11:44,894 INFO - Received query: How many pods are in the default namespace?
+2024-10-30 12:11:46,288 INFO - Generated answer: There are 5 pods in the default namespace.
+2024-10-30 12:11:46,290 INFO - 127.0.0.1 - - [30/Oct/2024 12:11:46] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:11:57,653 INFO - Received query: What is the status of the pod named example-pod?
+2024-10-30 12:11:58,921 ERROR - Pod 'example-pod?' not found in namespace 'default'.
+2024-10-30 12:11:58,921 INFO - Generated answer: The status of the pod 'example-pod?' is 'Pod not found.'.
+2024-10-30 12:11:58,922 INFO - 127.0.0.1 - - [30/Oct/2024 12:11:58] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:13:16,487 INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+2024-10-30 12:13:16,488 INFO - [33mPress CTRL+C to quit[0m
+2024-10-30 12:13:32,806 INFO - Received query: What is the status of the pod named example-pod?
+2024-10-30 12:13:34,211 INFO - Checking status for pod 'example-pod?' in namespace 'default'
+2024-10-30 12:13:34,236 ERROR - Pod 'example-pod?' not found in namespace 'default'.
+2024-10-30 12:13:34,236 INFO - Generated answer: The status of the pod 'example-pod?' is 'Pod not found.'.
+2024-10-30 12:13:34,237 INFO - 127.0.0.1 - - [30/Oct/2024 12:13:34] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:13:39,358 INFO - Received query: How many pods are in the default namespace?
+2024-10-30 12:13:40,804 INFO - Generated answer: There are 5 pods in the default namespace.
+2024-10-30 12:13:40,804 INFO - 127.0.0.1 - - [30/Oct/2024 12:13:40] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:13:51,070 INFO - Received query: Is the API server accessible?
+2024-10-30 12:13:53,283 INFO - Generated answer: Yes
+2024-10-30 12:13:53,284 INFO - 127.0.0.1 - - [30/Oct/2024 12:13:53] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:14:10,636 INFO - Received query: What is the status of the pod named 'hello-minikube-7d89cbdb88-bqlvg'?
+2024-10-30 12:14:12,435 INFO - Checking status for pod 'hello-minikube-7d89cbdb88-bqlvg?' in namespace 'default'
+2024-10-30 12:14:12,460 ERROR - Pod 'hello-minikube-7d89cbdb88-bqlvg?' not found in namespace 'default'.
+2024-10-30 12:14:12,461 INFO - Generated answer: The status of the pod 'hello-minikube-7d89cbdb88-bqlvg?' is 'Pod not found.'.
+2024-10-30 12:14:12,461 INFO - 127.0.0.1 - - [30/Oct/2024 12:14:12] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:16:42,492 INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+2024-10-30 12:16:42,492 INFO - [33mPress CTRL+C to quit[0m
+2024-10-30 12:16:49,831 INFO - Received query: What is the status of the pod named 'hello-minikube-7d89cbdb88-bqlvg'?
+2024-10-30 12:16:51,821 ERROR - Error processing query: name 're' is not defined
+2024-10-30 12:16:51,822 INFO - Generated answer: An error occurred while processing your query.
+2024-10-30 12:16:51,823 INFO - 127.0.0.1 - - [30/Oct/2024 12:16:51] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:16:58,434 INFO - Received query: Is the API server accessible?
+2024-10-30 12:16:59,746 INFO - Generated answer: Yes
+2024-10-30 12:16:59,746 INFO - 127.0.0.1 - - [30/Oct/2024 12:16:59] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:17:06,071 INFO - Received query: How many pods are in the default namespace?
+2024-10-30 12:17:07,443 INFO - Generated answer: There are 5 pods in the default namespace.
+2024-10-30 12:17:07,444 INFO - 127.0.0.1 - - [30/Oct/2024 12:17:07] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:17:55,281 INFO - Received query: What is the status of the pod named 'hello-minikube-7d89cbdb88-bqlvg'?
+2024-10-30 12:17:56,726 ERROR - Error processing query: name 're' is not defined
+2024-10-30 12:17:56,726 INFO - Generated answer: An error occurred while processing your query.
+2024-10-30 12:17:56,728 INFO - 127.0.0.1 - - [30/Oct/2024 12:17:56] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:20:21,029 INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+2024-10-30 12:20:21,030 INFO - [33mPress CTRL+C to quit[0m
+2024-10-30 12:20:27,036 INFO - Received query: What is the status of the pod named 'hello-minikube-7d89cbdb88-bqlvg'?
+2024-10-30 12:20:29,545 INFO - Attempting to get status for pod 'hello-minikube-7d89cbdb88-bqlvg' in namespace 'default'
+2024-10-30 12:20:29,574 INFO - Generated answer: The status of the pod 'hello-minikube-7d89cbdb88-bqlvg' is 'Pending'.
+2024-10-30 12:20:29,576 INFO - 127.0.0.1 - - [30/Oct/2024 12:20:29] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:21:03,419 INFO - Received query: What is the status of the pod named 'my-deployment-577d9fbfb9-kzptt'?
+2024-10-30 12:21:04,594 INFO - Attempting to get status for pod 'my-deployment-577d9fbfb9-kzptt' in namespace 'default'
+2024-10-30 12:21:04,622 INFO - Generated answer: The status of the pod 'my-deployment-577d9fbfb9-kzptt' is 'Running'.
+2024-10-30 12:21:04,623 INFO - 127.0.0.1 - - [30/Oct/2024 12:21:04] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:21:51,485 INFO - Received query: Which pod is spawned by my-deployment?
+2024-10-30 12:21:52,995 INFO - Generated answer: I'm sorry, I couldn't determine the action for this query.
+2024-10-30 12:21:52,996 INFO - 127.0.0.1 - - [30/Oct/2024 12:21:52] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:22:14,331 INFO - Received query: How many nodes are there in the cluster?
+2024-10-30 12:22:15,655 INFO - Generated answer: There are 1 nodes in the cluster.
+2024-10-30 12:22:15,656 INFO - 127.0.0.1 - - [30/Oct/2024 12:22:15] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:24:17,119 INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+2024-10-30 12:24:17,120 INFO - [33mPress CTRL+C to quit[0m
+2024-10-30 12:24:28,441 INFO - Received query: Which pod is spawned by my-deployment?
+2024-10-30 12:24:29,888 INFO - Generated answer: The pod(s) spawned by deployment 'my-deployment' are: my-deployment-577d9fbfb9-kzptt, my-deployment-577d9fbfb9-nws9t, my-deployment-577d9fbfb9-q2h72
+2024-10-30 12:24:29,889 INFO - 127.0.0.1 - - [30/Oct/2024 12:24:29] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:29:42,906 INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.74.246:8000
+2024-10-30 12:29:42,907 INFO - [33mPress CTRL+C to quit[0m
+2024-10-30 12:29:48,883 INFO - Received query: Which pod is spawned by my-deployment?
+2024-10-30 12:29:50,444 INFO - Generated answer: The pod(s) spawned by deployment 'my-deployment' are: my-deployment
+2024-10-30 12:29:50,446 INFO - 127.0.0.1 - - [30/Oct/2024 12:29:50] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:36:06,559 INFO - Received query: How many pods are in the default namespace?
+2024-10-30 12:36:08,256 INFO - Generated answer: There are 5 pods in the default namespace.
+2024-10-30 12:36:08,262 INFO - 127.0.0.1 - - [30/Oct/2024 12:36:08] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:36:14,657 INFO - Received query: What is the status of the pod named 'example-pod'?
+2024-10-30 12:36:15,910 INFO - Attempting to get status for pod 'example-pod' in namespace 'default'
+2024-10-30 12:36:15,932 ERROR - Pod 'example-pod' not found in namespace 'default'.
+2024-10-30 12:36:15,932 INFO - Generated answer: The status of the pod 'example-pod' is 'Pod not found.'.
+2024-10-30 12:36:15,933 INFO - 127.0.0.1 - - [30/Oct/2024 12:36:15] "POST /query HTTP/1.1" 200 -
+2024-10-30 12:36:25,772 INFO - Received query: How many nodes are there in the cluster?
+2024-10-30 12:36:27,001 INFO - Generated answer: There are 1 nodes in the cluster.
+2024-10-30 12:36:27,002 INFO - 127.0.0.1 - - [30/Oct/2024 12:36:27] "POST /query HTTP/1.1" 200 -
