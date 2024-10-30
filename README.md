@@ -110,6 +110,21 @@ curl -X POST http://localhost:8000/query -H "Content-Type: application/json" -d 
 
 
 
+## Implementation Approach
+
+This project implements a Flask-based web application that serves as an AI assistant for querying a Kubernetes cluster. The main components of the implementation include:
+
+1. **Flask Framework**: Used to create a RESTful API that listens for incoming queries from users.
+   
+2. **Kubernetes Client**: Utilizes the official Kubernetes Python client to interact with the Minikube cluster, enabling actions such as retrieving pod statuses, counting pods, and checking node counts.
+
+3. **Mistral API Integration**: Leverages the Mistral API to process natural language queries. When a query is received, the application interprets the user's intent and dynamically determines the appropriate Kubernetes action.
+
+4. **Structured Query Processing**: The `process_query` function analyzes the incoming query, generates a structured prompt for the Mistral API, and calls the relevant Kubernetes functions based on the LLM's interpretation.
+
+5. **Logging**: Implemented logging to capture incoming requests, generated responses, and any errors encountered during processing, aiding in debugging and monitoring.
+
+This approach ensures that the application can respond to a wide range of queries while maintaining clarity and structure in the codebase.
 
 
 
