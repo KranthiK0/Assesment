@@ -36,9 +36,10 @@ python
 from pydantic import BaseModel
 
 class QueryResponse(BaseModel):
+{
     query: str
     answer: str
-
+}
 ## Scope of Queries
 
 The assistant is designed to handle read actions related to the following topics:
