@@ -27,6 +27,7 @@ This project is a Flask-based AI assistant that interacts with a Kubernetes clus
 {
     "query": "How many pods are in the default namespace?
 }
+```
 
 Response Format
 The response will be in the following format, utilizing Pydantic:
@@ -50,10 +51,13 @@ General Kubernetes information
 Example Queries
 Q: "How many pods are in the default namespace?"
 A: "There are 5 pods in the default namespace."
+
 Q: "What is the status of the pod named 'example-pod'?"
 A: "The status of the pod 'example-pod' is 'Running'."
+
 Q: "Which pod is spawned by my-deployment?"
 A: "my-deployment"
+
 Q: "How many nodes are there in the cluster?"
 A: "There are 2 nodes in the cluster."
 
@@ -70,6 +74,7 @@ export MISTRAL_API_KEY="your_api_key_here"
 
 Installation
 Clone this repository:
+
 bash
 git clone https://github.com/yourusername/kubernetes-ai-assistant.git
 
