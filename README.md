@@ -25,11 +25,11 @@ This project is a Flask-based AI assistant that interacts with a Kubernetes clus
 
 ```json
 {
-    "query": "How many pods are in the default namespace?
+    "query": "How many pods are in the default namespace?"
 }
 ```
 
-Response Format
+## Response Format
 The response will be in the following format, utilizing Pydantic:
 
 python
@@ -39,7 +39,7 @@ class QueryResponse(BaseModel):
     query: str
     answer: str
 
-Scope of Queries
+## Scope of Queries
 
 The assistant is designed to handle read actions related to the following topics:
 
@@ -48,7 +48,7 @@ Node counts
 Logs of resources deployed on Minikube
 General Kubernetes information
 
-Example Queries
+## Example Queries
 Q: "How many pods are in the default namespace?"
 A: "There are 5 pods in the default namespace."
 
@@ -62,7 +62,7 @@ Q: "How many nodes are there in the cluster?"
 A: "There are 2 nodes in the cluster."
 
 
-Setup Instructions
+## Setup Instructions
 
 Prerequisites
 Ensure you have Python 3.10 installed.
@@ -70,7 +70,7 @@ Have Minikube set up and running with your Kubernetes cluster.
 Obtain your Mistral API key and set it as an environment variable:
 
 
-export MISTRAL_API_KEY="your_api_key_here"
+### export MISTRAL_API_KEY="your_api_key_here"
 
 Installation
 Clone this repository:
@@ -98,12 +98,12 @@ bash
 python Main.py
 The application will be available at http://localhost:8000/query.
 
-Logging
+## Logging
 
 The application logs all interactions and errors to agent.log. You can check this file for detailed logs and debugging information.
 
 
-Testing Your Agent
+## Testing Your Agent
 
 Use the following curl command to test the API:
 curl -X POST http://localhost:8000/query -H "Content-Type: application/json" -d '{"query": "How many pods are in the default namespace?"}'
