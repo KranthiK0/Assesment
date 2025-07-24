@@ -1,5 +1,3 @@
-# Assesment
-
 # Kubernetes AI Assistant
 
 ## Project Overview
